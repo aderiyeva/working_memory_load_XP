@@ -23,23 +23,22 @@ const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: 'intro',
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-  title: "Welcome to the experiment on form comparison!",
+  title: "Welcome to the experiment on digit comparison!",
   text: `Dear participant,
             <br />
             <br />
             thank you for the decision to devote your time to passing this short test. 
             <br />
             In the following experiment you will be presented with the list of digits or letters, which you will be asked to recall in the exact order. 
-            Before the recall, you will be ask to make several judgment on the digits:
-            
+            Before the recall, you will be asked to make several judgment on the digits:
+            <br />
             <br />
             If the digit is blue: to judge whether it is even (0, 2, 4, 6, 8) or odd (1, 3, 5, 7, 9).
             <br />
             If the digit is red: to judge whether it is higher (6, 7, 8, 9) or lower (1, 2, 3, 4) than 5.
             <br />
-            Please, start experiment when you are in the state to which you could refer as "normal"
-            <br /> 
-            (not too tired, not too sleepy, not extremely hungry, etc)
+            <br />
+            Please, start experiment when you are in the state to which you could refer as "normal" (not too tired, not too sleepy, not extremely hungry, etc)
             <br />
             Approximate duration of the whole experiment is 15 minutes.
             <br />
