@@ -1,12 +1,23 @@
 # Departure Point
 
-This repository contains a minimal example of a _magpie experiment. It can be used as a quick-start departure point when programming a new _magpie experiment from scratch.
+This repository contains an updated example of a _magpie experiment. It investugates an impact of congruency of the stimuli on the working memory load. This experiment is an indirect reproduction of the Experiment 2 of the following paper: https://doi.org/10.1037/0278-7393.34.3.478. It cacan be used as a quick-start departure point when programming a new _magpie experiment from scratch.
 
 ## Online demo
 
-You can have a look at the minimal example experiment [here](https://departure-point.netlify.com/).
+You can have a look at the Working memory load  experiment [here](https://working-memory-load.netlify.app).
+
+## Desciption of the existing documents
+`01_custom_styles.css` :: contains custom styles
+`02_custom_functions.js` :: contains custom functions, variables and hooks 
+`03_custom_views_templates.js` :: contains user-defined special-purpose view templates 
+`04_trials.js` :: contains the data of different trials of a task
+`05_views.js` :: defines the different kinds of tasks
+`06_main.js` :: contains the experiment structure and general information about deployment
+`raw_data.csv` :: contains the data obtained from participants before processing
 
 ## How to set up an experiment with _magpie (quick start guide)
+
+Below, one can find the instructions on how to implement the experiments  with _magpie.
 
 ### Obtaining the `departure point`
 
